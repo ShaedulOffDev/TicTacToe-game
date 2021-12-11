@@ -1,0 +1,67 @@
+.tr-45{
+    transform:rotate(-40deg);
+}
+.tr45{
+    transform:rotate(45deg);
+}
+
+.tr90{
+    transform: rotate(90deg);
+}
+.l3{
+    left: 8.5%;
+}
+.r3{
+    right: 8.5%;
+}
+.t25{
+    top: 25%;
+}
+.t50{
+    top: 50%;
+}
+.t78{
+    top: 78%;
+}
+@media (max-width: 991.8px) {
+    .tr45{
+        transform: rotate(50deg);
+    }
+    .tr-45{
+        transform: rotate(-50deg);
+    }
+}
+@media (max-width: 768.8px) {
+    .tr45{
+        transform: rotate(45deg);
+    }
+    .tr-45{
+        transform: rotate(-45deg);
+    }
+    .t25{
+        top: 30%;
+    }
+    .t78{
+        top: 70.5%;
+    }
+    .l3{
+        left: -13.5%;
+    }
+    .r3{
+        right: -13.5%;
+    }
+}
+@media (max-width: 400.4px) {
+     .t78{
+        top: 67%;
+    } 
+    .t25{
+        top: 33.5%;
+    }
+   .l3{
+        left: -30%;
+    }
+    .r3{
+        right: -30%;
+    }
+}
